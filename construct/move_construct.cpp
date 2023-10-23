@@ -29,6 +29,11 @@ demo get_demo(){
 }
  
 int main(){
-    demo a = get_demo();
+   class A{
+    // virtual ~A() {}
+   };
+    int *a; //
+    cout<<sizeof(a)<<endl;
+   cout << sizeof(A) << endl;
     return 0;
 }
